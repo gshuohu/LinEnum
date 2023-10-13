@@ -57,7 +57,7 @@ else
 	echo -e "\e[00;33m[+] Thorough tests = Disabled\e[00m" 
 fi
 
-sleep 2
+sleep 3
 
 if [ "$export" ]; then
   mkdir $export 2>/dev/null
